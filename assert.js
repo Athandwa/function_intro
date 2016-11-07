@@ -1,3 +1,6 @@
 const assert = require('assert');
-assert.equal = (isWeekday('January'), false);
-assert.equal = (isWeekday('January'), true);
+
+// after you declared the function
+assert.equal(greet('Bob'), 'Hi, Bob!');
+//this assert should fail
+assert.equal(greet('Sibu'), 'Hi, Sibo');

@@ -4,3 +4,7 @@ const assert = require('assert');
 assert.equal(greet('Bob'), 'Hi, Bob!');
 //this assert should fail
 assert.equal(greet('Sibu'), 'Hi, Sibo');
+
+function greet(name) {
+  return "Hi" +name;
+}
