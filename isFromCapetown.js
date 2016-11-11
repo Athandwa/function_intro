@@ -3,3 +3,5 @@ function isFromCapeTown(regNumber) {
     return results;
 }
 console.log(isFromCapeTown('CA 182736'));
+const assert = require('assert');
+assert.equal(isFromCapeTown('CA 182736'), false);

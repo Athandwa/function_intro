@@ -6,5 +6,5 @@ assert.equal(greet('Bob'), 'Hi, Bob!');
 assert.equal(greet('Sibu'), 'Hi, Sibo');
 
 function greet(name) {
-  return "Hi" +name;
+  return "Hi" + name;
 }

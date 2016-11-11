@@ -3,3 +3,5 @@ function isFromLimpopo(LimpopoRegNum) {
   return RegNumber;
 }
 console.log(isFromLimpopo('DRT 122 L'));
+const assert = require('assert');
+assert.equal(isFromLimpopo('DRT 122 L'), true);

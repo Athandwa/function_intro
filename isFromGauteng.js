@@ -3,3 +3,5 @@ function isFromGauteng(regNumber) {
   return results;
 }
 console.log(isFromGauteng('DR 12 TY GP'));
+const assert = require('assert');
+assert.equal(isFromGauteng('DR 12 TY GP'), true);
