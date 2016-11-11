@@ -1,5 +1,4 @@
 function isWeekday(Day) {
-  return Day;
+  return !Day.startsWith('S');
 }
-var Day = 'Monady';
 console.log(isWeekday('Monday'));
